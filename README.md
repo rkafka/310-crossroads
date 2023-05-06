@@ -6,10 +6,16 @@ This is **Ryan Kafka**'s version. Integration issues have crippled the cohesion 
 seen as having neglected my work or built an insufficient attempt since the integration efforts were haphazard.
 
 I. Setting up frontend
-  1. Copy "frontend_crossroads" folder into C:\xampp\htdocs\
+  1. Copy full "crossroads" folder into C:\xampp\htdocs\
 
 II. Setting up backend
   1. Import "crossroads.sql" on base screen of phpMyAdmin
 
-III. Item Information
-- All items and item_list functionality should be located within the admin_acc and customer_acc folder. Admin_acc contains code to get to the admin's home page and have 4 database functionalities: View, update, insert, and delete. For Customer_acc folder, you can access 4 functionalities: search, update, insert, and delete. 
+To use this app, please start by starting your php server and navigating to http://localhost/crossroads/login.php
+
+## Log-In Info
+| email           | password | account id | account type |
+| :=============: | :======: | :========: | :==========: |
+| bb@me.com       | bb       | 2          | 2 (buyer)    |
+| ss@me.com       | ss       | 3          | 1 (seller)   |
+| rkafka@tamu.edu | rjk      | 4          | 0 (admin)    |
