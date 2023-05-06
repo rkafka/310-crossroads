@@ -15,7 +15,7 @@ To use this app, please start by starting your php server and navigating to http
 
 ## Log-In Info
 | email           | password | account id | account type |
-| :=============: | :======: | :========: | :==========: |
+| :-------------: | :------: | :--------: | :----------: |
 | bb@me.com       | bb       | 2          | 2 (buyer)    |
 | ss@me.com       | ss       | 3          | 1 (seller)   |
 | rkafka@tamu.edu | rjk      | 4          | 0 (admin)    |
